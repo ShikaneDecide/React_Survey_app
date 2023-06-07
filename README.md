@@ -12,4 +12,4 @@
 2. Navigate to the `src` (Source) directory: `cd src`.
 3. Run the application: `npm start`.
 4. Access the application through the provided link.
-https://github.com/ShikaneDecide/React_Survey_app.md
+https://github.com/ShikaneDecide/React_Survey_app
