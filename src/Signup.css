@@ -1,0 +1,36 @@
+
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='password'] {
+  width: 95%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 20px;
+  margin-bottom: 20px;
+
+}
+
+input[type='submit'] {
+  padding: 1px 10px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+input[type='submit']:hover {
+  background-color: #c82333;
+}
+
+.form-group {
+  margin-bottom: 30px;
+}

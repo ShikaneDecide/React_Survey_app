@@ -1,0 +1,11 @@
+//FRONT END OF THE APPLICATION
+
+POST http://localhost:4000/app/login
+Content-Type: application/json
+
+
+{
+   
+    "email":"deee@gmail1.com",
+    "password":"Decide"
+}

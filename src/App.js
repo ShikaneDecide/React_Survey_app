@@ -1,27 +1,34 @@
-import './App.css';
+import React, { useState, useEffect } from "react";
+import NavBar from "./NavBar";
+import LoginSignup from "./Login";
 
 function App() {
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
+
+  useEffect(() => {
+    const storedToken = localStorage.getItem("token");
+    if (storedToken) {
+      setIsLoggedIn(true);
+    }
+  }, []);
+
+  const handleLogin = (newToken) => {
+    localStorage.setItem("token", newToken);
+    setIsLoggedIn(true);
+  };
+
+  const handleLogout = () => {
+    localStorage.removeItem("token");
+    setIsLoggedIn(false);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src="Octocat.png" className="App-logo" alt="logo" />
-        <p>
-          GitHub Codespaces <span className="heart">♥️</span> React
-        </p>
-        <p className="small">
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </p>
-      </header>
+    <div>
+      {isLoggedIn ? (
+        <NavBar onLogout={handleLogout} />
+      ) : (
+        <LoginSignup onLogin={handleLogin} />
+      )}
     </div>
   );
 }

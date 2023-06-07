@@ -1,0 +1,29 @@
+p {
+    max-width: 50%;
+    margin: 0 auto;
+    font-size: 22px;
+  }
+  button {
+    background-color: #776363;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  button:hover,
+  button:focus {
+    background-color: Black;
+  }
+
+footer{
+ background-color: skyblue;
+  padding: 100px;
+  
+}
+
+
+

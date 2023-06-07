@@ -1,0 +1,79 @@
+ form {
+  max-width: 600px;
+  margin: auto;
+  padding: 100px;
+  background-color:  #c9dac9;
+  border-radius: 10px;
+  
+  }
+  
+  form div {
+  margin: 10px 0;
+  
+  }
+  
+  form h4 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  }
+  
+  form h5 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  }
+  
+  form label {
+  display: block;
+  margin-bottom: 10px;
+  }
+  
+  form input[type="radio"],
+  form input[type="checkbox"] {
+  margin-right: 5px;
+  }
+
+  form input[type="text"]{
+    width: 98.5%;
+    height: 50%;
+    border-radius: 5px;
+  }
+  
+  form textarea {
+    width: 98.5%;
+  height: 100px;
+  padding: 5px;
+  border: 1px solid rgb(17, 15, 15);
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  resize: vertical;
+  }
+  
+  form select {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  }
+  
+  form button[type="submit"] {
+  display: block;
+  margin: 20px auto 0;
+  padding: 10px 20px;
+  background-color: #523a3a;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  }
+  
+  form button[type="submit"]:hover {
+  background-color: #3e8e41;
+  }
+
+  
