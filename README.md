@@ -1,13 +1,14 @@
-The following are a documentary on how to run the application
+## Running the Server and Database (Backend)
 
-1. RUNNING THE SERVER AND DATABASE (Backend)
-      - Locate to the src(Source) directory --cd src
-      - Locate to the backend directory -- cd backend
-      - Then run surver and connect to mangoDB -- npm run start
-      - NB : Do not close the terminal leave it running 
-2. RUNNING THE APP
-      - Open another terminal
-      - Locate to source (src) directory -- cd src
-      - Run the application -- npm start
+1. Open a terminal.
+2. Navigate to the `src` (Source) directory: `cd src`.
+3. Navigate to the `backend` directory: `cd backend`.
+4. Start the server and connect to MongoDB: `npm run start`.
+   - **Note**: Do not close the terminal; leave it running.
 
-3. Link for the application 
+## Running the App
+
+1. Open another terminal.
+2. Navigate to the `src` (Source) directory: `cd src`.
+3. Run the application: `npm start`.
+4. Access the application through the provided link.
